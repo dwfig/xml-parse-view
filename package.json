@@ -1,0 +1,23 @@
+{
+  "name": "ctcl-xml-assessment",
+  "version": "1.0.0",
+  "description": "parsing and displaying xml",
+  "author": "daniel fries",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "http-server ./dist -p 4000 -c1 -o"
+  },
+  "devDependencies": {
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "http-server": "^13.0.1",
+    "stream-browserify": "^3.0.0",
+    "timers-browserify": "^2.0.12",
+    "xml2js": "^0.4.23"
+  }
+}
